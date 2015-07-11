@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" nextobjectid="30">
+ <tileset firstgid="1" name="Outside_A5" tilewidth="32" tileheight="32">
+  <image source="Outside_A5.png" width="256" height="512"/>
+ </tileset>
+ <tileset firstgid="129" name="Inside_B" tilewidth="32" tileheight="32">
+  <image source="Inside_B.png" width="512" height="512"/>
+ </tileset>
+ <layer name="ground" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJyLZGBgiKISjgbiRCBOohJOHoLmCQ5y942aN2reqHkj17xMIM6iEs4GYgCMZpjQ
+  </data>
+ </layer>
+ <layer name="collision" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg6QAULjkGSj8GhBp952NjkqsOnh1g3UQrw2UGOvYTChRDGpo5Ue9H1UeoPcszDF4e4zCMnTZEbfoT8g88+Ss2jRByXfcT4l1CckOoGfGqINY/YvE6N/ElOGFACsJkHAPRBD6E=
+  </data>
+ </layer>
+ <objectgroup name="player">
+  <object id="6" name="playerinit" x="325" y="80"/>
+ </objectgroup>
+ <layer name="canmove" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgawJMRNyZFzUgE1A6D4R6mo+E1CkYBcQAAhcQGXQ==
+  </data>
+ </layer>
+ <objectgroup name="Event">
+  <object id="29" name="transitionEvent" x="325" y="15"/>
+ </objectgroup>
+ <layer name="objects" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAOTCVS3SgYBaNgFIyCkQEAkmUAlg==
+  </data>
+ </layer>
+</map>
